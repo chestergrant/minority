@@ -1,0 +1,187 @@
+#login{
+    float:right;
+    margin-top:15px;
+    margin-right: 35px;
+}
+
+
+
+#mission-points{
+    color:#000000;
+    padding-left:35px;
+    font-size: 18px;
+}
+
+
+.dash{
+    color: #FF9900;
+    /*text-shadow: 0px 2px 3px #555;*/
+}
+
+#mission{
+    color: #3299BB;
+    width: 500px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 35px;   
+    font-size:36px;
+   
+    float:left;
+}
+#bottom-panel{
+     min-width:1000px;
+}
+#signup{
+    line-height: 30px;
+    float:right;
+    background: #fff;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(100%,#ddd));
+    background: -webkit-linear-gradient(top,#fff 0,#ddd 100%);
+    background: -moz-linear-gradient(top,#fff 0,#ddd 100%);
+    background: -ms-linear-gradient(top,#fff 0,#ddd 100%);
+    background: -o-linear-gradient(top,#fff 0,#ddd 100%);
+    background: linear-gradient(top,#fff 0,#ddd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#dddddd',GradientType=0);
+    border-left: solid 1px #eee;
+    border-right: solid 1px #eee;
+    border-bottom: solid 1px #ccc;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    margin-top:35px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+     border-radius: 4px;
+     
+     margin-right:160px;
+     
+}
+#signup strong{
+ border-bottom: 1px solid #e2e2e2;
+ 
+ display:block;
+ padding:12px 15px;
+
+}
+#signup form{
+    padding: 12px 15px;
+}
+
+#login_errors{
+    margin-left:136px;
+    margin-top:-13px;
+    visibility:hidden;
+}
+.speech 
+{
+display:block;
+position: relative;
+width: 250px;
+color:#d58a8a;
+padding: 4px;
+background: #fff4f4;
+border: #d58a8a solid 1px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.speech:after 
+{
+content: "";
+position: absolute;
+top: -15px;
+left: 191px;
+border-style: solid;
+border-width: 0 15px 15px;
+border-color: #fff4f4 transparent;
+display: block;
+width: 0;
+z-index: 1;
+}
+
+.speech:before 
+{
+content: "";
+position: absolute;
+top: -16px;
+left: 191px;
+border-style: solid;
+border-width: 0 15px 15px;
+border-color: #d58a8a transparent;
+display: block;
+width: 0;
+z-index: 0;
+
+}
+.signup-error-bubble 
+{
+position: relative;
+display: inline-block;
+width: 135px;
+height: 30px;
+padding: 0px;
+color:#d58a8a; 
+background: #fff4f4;
+padding-left: 10px;
+border: #d58a8a solid 1px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.signup-error-bubble:after 
+{
+content: "";
+position: absolute;
+top: 9px;
+left: -18px;
+border-style: solid;
+border-width: 7px 18px 7px 0;
+border-color: transparent #fff4f4;
+display: block;
+width: 0;
+z-index: 1;
+}
+
+.signup-error-bubble:before 
+{
+content: "";
+position: absolute;
+top: 9px;
+left: -19px;
+border-style: solid;
+border-width: 7px 18px 7px 0;
+border-color: transparent #d58a8a;
+display: block;
+width: 0;
+z-index: 0;
+}
+#field-errors{
+    float:right;
+    margin-top:102px;
+    margin-right:-410px;
+}
+.signup-error-correction{
+    display: block;
+    visibility:hidden;
+    line-height: 14px;
+}
+#firstname-error{
+ margin-top: 0px; 
+}
+#lastname-error{
+    margin-top: 5px;
+}
+#email-error{
+    margin-top: 2px;
+}
+#password-error{
+ margin-top: 2px;
+}
+#phone-error{
+    margin-top: 3px;
+}
+#skype-error{
+    margin-top: 2px;
+}

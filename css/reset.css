@@ -1,0 +1,19 @@
+
+.password-error-bubble{
+    position: relative;
+    display: inline-block;
+    min-width: 270px;
+    height: 20px;
+    padding: 0px;
+    color:#d58a8a; 
+    background: #fff4f4;
+    padding-left: 10px;
+    border: #d58a8a solid 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left : 110px;
+}
+#password-error{
+    visibility: hidden;
+}

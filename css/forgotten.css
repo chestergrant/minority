@@ -1,0 +1,77 @@
+#shell{
+    
+    width:50%;
+    margin:35px auto;
+    border: 1px solid #AAA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding:10px;
+    min-width: 500px;
+    background: white;
+}
+
+#text{
+    border-bottom: 1px solid #D26911;
+    padding:0px;
+    margin:0px;
+    height:27px;
+}
+#instructions{
+   margin-top:10px;  
+}
+#email{
+    width:90%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #AAA;
+}
+#email-error{
+    margin-top:-30px;
+    margin-left:470px;
+    visibility: hidden;
+}
+.email-error-bubble 
+{
+position: relative;
+display: inline-block;
+width: 135px;
+height: 30px;
+padding: 0px;
+color:#d58a8a; 
+background: #fff4f4;
+padding-left: 10px;
+border: #d58a8a solid 1px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.email-error-bubble:after 
+{
+content: "";
+position: absolute;
+top: 9px;
+left: -18px;
+border-style: solid;
+border-width: 7px 18px 7px 0;
+border-color: transparent #fff4f4;
+display: block;
+width: 0;
+z-index: 1;
+}
+
+.email-error-bubble:before 
+{
+content: "";
+position: absolute;
+top: 9px;
+left: -19px;
+border-style: solid;
+border-width: 7px 18px 7px 0;
+border-color: transparent #d58a8a;
+display: block;
+width: 0;
+z-index: 0;
+}
